@@ -12,9 +12,11 @@ class FindPetApp(QDialog):
         super(FindPetApp, self).__init__()
         loadUi("UI_Files\\Start_Window.ui", self)
         self.label_2.setPixmap(QPixmap(os.getcwd() + r"\Images\golden_retriever_puppies.jpg"))
+        self.pushButton.clicked.connect(self.start_button)
 
     def start_button(self):
         ui = QuestionWithFunction.QuestionWithFunction()
+        ui.display(q_number=0, answer=[])
         self.close()
         ui.show()
         ui.exec_()

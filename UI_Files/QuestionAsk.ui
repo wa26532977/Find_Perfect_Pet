@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>777</width>
-    <height>1046</height>
+    <width>771</width>
+    <height>1025</height>
    </rect>
   </property>
   <property name="font">
@@ -37,16 +37,16 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>70</y>
-      <width>461</width>
-      <height>231</height>
+      <x>0</x>
+      <y>0</y>
+      <width>751</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>14</pointsize>
+      <pointsize>12</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -87,13 +87,39 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>410</y>
-      <width>211</width>
+      <x>60</x>
+      <y>470</y>
+      <width>661</width>
       <height>321</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton_0">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>RadioButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_1">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>RadioButton</string>
+       </property>
+      </widget>
+     </item>
      <item>
       <widget class="QRadioButton" name="radioButton_2">
        <property name="font">
@@ -108,7 +134,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QRadioButton" name="radioButton_6">
+      <widget class="QRadioButton" name="radioButton_3">
        <property name="font">
         <font>
          <family>Arial</family>
@@ -146,33 +172,23 @@
        </property>
       </widget>
      </item>
-     <item>
-      <widget class="QRadioButton" name="radioButton_3">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>RadioButton</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="radioButton">
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>RadioButton</string>
-       </property>
-      </widget>
-     </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>471</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>image Here</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
   </widget>
  </widget>
