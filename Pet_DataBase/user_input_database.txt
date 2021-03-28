@@ -2,3 +2,5 @@ answer	dog_name
 [0, 0, 0, 0, 0]	affenpinscher
 [1, 2, 3, 4, 5]	asdfasdf
 [1, 2, 3, 4, 5]	sdf1`2dsaf
+[0, 2, 1, 0, 1]	good dog1
+[1, 1, 2, 0, 1]	dog 2

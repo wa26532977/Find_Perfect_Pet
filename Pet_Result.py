@@ -2,13 +2,7 @@ from PyQt5 import QtWidgets
 import sys
 from PyQt5.QtWidgets import QDialog
 from PyQt5.uic import loadUi
-from PyQt5.QtGui import QPixmap
 import os
-import ast
-import requests
-import random
-from os import listdir
-from os.path import isfile, join
 import pandas as pd
 
 
