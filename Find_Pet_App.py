@@ -21,17 +21,6 @@ class FindPetApp(QDialog):
         ui.show()
         ui.exec_()
 
-    # import ast
-    # import requests
-    # dic_str = requests.get(r"https://dog.ceo/api/breed/akita/images/random").content.decode("UTF-8")
-    # my_data = ast.literal_eval(dic_str)
-    # if my_data["status"] == "success":
-    #     pic_URL = my_data["message"].replace('\\', '')
-    #     print(type(my_data))
-    #     img_get = requests.get(pic_URL).content
-    #     with open('image_name.jpg', 'wb') as handler:
-    #         handler.write(img_get)
-
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
